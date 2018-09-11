@@ -6,9 +6,9 @@ public class RepeatN {
 
         String str = "";
         int inputnumber;
-        Scanner sc = new Scanner(System.in);
-        str = sc.nextLine();
-        inputnumber = sc.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        str = scanner.nextLine();
+        inputnumber = scanner.nextInt();
         int length = str.length();
         for (int i = 0; i < length; i++) {
             System.out.print(str.charAt(i));
